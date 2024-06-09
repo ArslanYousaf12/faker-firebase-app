@@ -29,6 +29,7 @@ flutter_ios_podfile_setup
 
 target 'Runner' do
   pod 'FirebaseFirestore', :git => 'https://github.com/invertase/firestore-ios-sdk-frameworks.git', :tag => '10.25.0'
+  # pod 'absl', :git => 'https://github.com/abseil/abseil-cpp.git', :tag => '20210324.2'
   use_frameworks!
   use_modular_headers!
 
