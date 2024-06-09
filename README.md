@@ -30,5 +30,5 @@ This is a Flutter application that demonstrates the use of Firebase Authenticati
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/your_username/flutter_firebase_auth_app.git
+git clone https://github.com/ArslanYousaf12/faker-firebase-app.git
 cd flutter_firebase_auth_app
