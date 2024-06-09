@@ -18,6 +18,8 @@ class FirestoreRepository {
       _firestore
           .doc('jobs/$jobId')
           .update({'uid': uid, 'title': title, 'company': company});
+  Future<void> deleteJob(String uid, String jobId) =>
+      _firestore.doc('jobs/$jobId').delete();
 
   Query<Job> jobQuery() {
     return _firestore.collection('jobs').withConverter(
